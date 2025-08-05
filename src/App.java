@@ -5,7 +5,7 @@ import java.util.Set;
 
 import controllers.EstudianteController;
 import models.Estudiante;
-
+//1244Mely
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -62,5 +62,7 @@ public class App {
                 new Estudiante("Samuel Torres", "3535353535", Arrays.asList(7.5, 8.0, 7.5, 8.0, 7.5, 8.0)),
                 new Estudiante("Mónica Andrade", "3636363636", Arrays.asList(9.0, 9.5, 9.0, 9.5, 9.0, 9.5)));
     }
+
+    EstudianteController estudianteController= new EstudianteController();
 
 }
